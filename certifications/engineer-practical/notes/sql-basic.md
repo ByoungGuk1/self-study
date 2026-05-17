@@ -332,3 +332,30 @@ Park의 dept_id = 30 → department에 id 30이 없으므로 제외
 Choi의 dept_id = NULL → 매칭 불가하므로 제외
 department의 id 40 인사는 student와 매칭되는 값이 없으므로 출력되지 않는다.
 ```
+
+---
+
+## 복습 기록
+
+### 2026-05-17
+
+#### 다시 확인한 내용
+
+- SELECT 실행 순서
+- WHERE와 HAVING 차이
+- INNER JOIN과 LEFT JOIN 차이
+- GROUP BY 이후 HAVING 적용 순서
+
+#### 헷갈릴 수 있는 부분
+
+- `WHERE`는 그룹화 전에 행을 걸러낸다.
+- `HAVING`은 그룹화 이후 집계 결과를 걸러낸다.
+- `LEFT JOIN`은 왼쪽 테이블 기준으로 모두 출력된다.
+- `INNER JOIN`은 양쪽에 매칭되는 데이터만 출력된다.
+
+#### 다음에 추가로 볼 내용
+
+- COUNT, SUM, AVG, MAX, MIN
+- DISTINCT
+- ORDER BY ASC / DESC
+- 서브쿼리
